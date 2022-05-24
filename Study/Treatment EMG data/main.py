@@ -28,9 +28,3 @@ with open('raw_emg_data_unprocessed/index_finger_motion_raw.csv') as f_index, \
 
     for line in f_victory:
         data_victory.append(list(map(float, line.strip().split(','))))
-
-
-for arr in [data_index, data_little, data_middle, data_rest, data_ring, data_thumb, data_victory]:
-    for i in range(5):
-        print(arr[i])
-    print()
