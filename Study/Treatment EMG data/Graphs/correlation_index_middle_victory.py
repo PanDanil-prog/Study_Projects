@@ -13,10 +13,8 @@ plt.show()
 
 plt.scatter(range(len(corr_index_victory)*15), corr_index_victory, s=1, c='blue')
 plt.title('Корреляция между указательным пальцем и жестом победы', fontsize=12)
-plt.savefig('correlation_victory_and_index_all_electrodes.png')
 plt.show()
 
 plt.scatter(range(len(corr_middle_victory)*15), corr_middle_victory, s=1, c='red')
 plt.title('Корреляция между средним пальцем и жестом победы', fontsize=12)
-plt.savefig('correlation_victory_and_middle_all_electrodes.png')
 plt.show()
